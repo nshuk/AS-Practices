@@ -9,3 +9,5 @@ for i in range (10,20,2): # print i, start 0, end 20, step 2
 
 # this is how for loop works
 # end must be minus 1
+
+# if an array has 5 items, from index 0 to index 4, and you len mylist, you will get 5. it counts the length, not give you last index
