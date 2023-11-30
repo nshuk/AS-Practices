@@ -18,7 +18,7 @@ else:
     print("Invalid month")
 
 # the use of MOD in python is used with a symbol %
-# MOD 4 means if the answer divided by 4 does not give any baki, it means that
+# MOD 4 means if the answer divided by 4 does not give any remainder, it means that
 # it is perfectly divisible by 4
 
 
