@@ -1,16 +1,18 @@
 inputstring = input("Please enter any word(s)")
-maxlength = int(len(inputstring))
+maxlength = len(inputstring)
+# use of len to count the length of the string
 
 print("The length of the string is: ", maxlength)
 
-others=int(0)
-uppercase=int(0)
-lowercase=int(0)
-numbers=int(0)
-counter=int(0)
+# intialize the total of all values as 0
+others = 0
+uppercase = 0
+lowercase = 0
+numbers = 0
+counter = 0
 
 for counter in range (maxlength) :
-    character = inputstring[counter]
+    character = inputstring[counter] #[x] refers to the letter of the string at that index
     if ord(character) >= 33 and ord(character) <= 37:
         others = others + 1
     elif ord(character) >= 48 and ord(character) <= 57:
