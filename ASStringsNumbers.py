@@ -10,3 +10,12 @@ print (num1)
 
 print(int(2.7))
 # it truncates, not round off to the nearest 1
+
+def left(s, amount):
+    return s[:amount]
+
+def right(s, amount):
+    return s[-amount:]
+
+def mid(s, offset, amount):
+    return s[offset:offset+amount]
