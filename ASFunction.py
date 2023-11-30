@@ -41,3 +41,5 @@ elif choice == 3:
     print("Area is: ", areaR)
 elif choice == 4:
     print("Thanks, bye.")
+
+# procedure on the other hand, you can just call by typing its name. no need to assign any returned value to a variable
